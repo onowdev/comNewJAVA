@@ -47,5 +47,10 @@ public class DataTipe {
         ke sebuah objek atau instance dari sebuah class.
         Salah satu tipe data yang termasuk ke dalam tipe
         data reference adalah string. */
+
+        var Usia = 70;
+        var namanya = "WIlliam";
+        System.out.println(Usia);
+        System.out.println(namanya);
     }
 }
