@@ -4,6 +4,7 @@ import com.onowdev.javafundamental.basic.kendaraan.Kreta;
 import com.onowdev.javafundamental.basic.kendaraan.Mobil;
 import com.onowdev.javafundamental.basic.kendaraan.Motor;
 import com.onowdev.javafundamental.basic.musik.Gitar;
+import com.onowdev.javafundamental.basic.stringtipedata.TipdatString;
 import com.onowdev.javafundamental.basic.tipedata.DataTipe;
 import org.apache.commons.lang3.time.DateUtils;
 
@@ -26,6 +27,8 @@ public class Main {
         System.out.println("Besok = "+ tomorrow);
 
         DataTipe.JenisData();
+
+        TipdatString.StringTipdat();
 
     }
 }
