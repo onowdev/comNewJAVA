@@ -11,5 +11,11 @@ public class TipdatString {
 
         System.out.println(andraString);
 
+        // Mengetahui Panjang String
+        String variabelSatu = "DzikirPagiSore";
+        int length = variabelSatu.length();
+
+        System.out.println("Panjang Kata -DzikirPagiSore-" + length + "huruf");
+
     }
 }
