@@ -17,5 +17,11 @@ public class TipdatString {
 
         System.out.println("Panjang Kata -DzikirPagiSore-" + length + "huruf");
 
+        // Mengambil Karakter dari sebuah String
+
+        String codinger = "Ramadhan_JSR";
+        char result = codinger.charAt(7);
+        System.out.println(result);
+
     }
 }
