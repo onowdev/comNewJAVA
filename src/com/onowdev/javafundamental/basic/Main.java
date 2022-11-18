@@ -17,6 +17,7 @@ public class Main {
         Gitar.Bunyi();
 
         Mobil.jumlahBan();
+        Mobil.drive();
         Kreta.jumlahBan();
         Motor.jumlahBan();
 
