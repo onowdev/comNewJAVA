@@ -5,9 +5,9 @@ public class LoopingArray {
         int [] arrInt = new int [1000000];
 
         // inisiasi dan menampilkan arrInt
-        for (int x = 0; x < arrInt.length);
-            arrInt[x] = x+1;
-        System.out.println(arrInt[x]);
-
+        for (int x = 0; x < arrInt.length; x++) {
+            arrInt[x] = x + 1;
+            System.out.println(arrInt[x]);
+        }
     }
 }
