@@ -1,12 +1,13 @@
 package com.onowdev.javafundamental.basic.percabangan;
 
-public class IfThen {
+public class IfThenElse {
     public static void main(String[] args) {
-        boolean isOn = true;
+        boolean isOn = false;
 
         if (isOn) {
             System.out.println("Menyalakan Lampu");
-            System.out.println("menyalakan Lampu Lain");
+        } else {
+            System.out.println("Konsidi tidak terpenuhi ....");
         }
     }
 }
